@@ -43,7 +43,7 @@ class Post extends CI_Controller {
 			$this->session->set_userdata('keyword', '');
 		}
 		$this->load->library('pagination');
-		$config['base_url'] = 'http://localhost/Assignment_Web/post/index';
+		$config['base_url'] = 'https://blogitta.herokuapp.com/post/index';
 		if (isset($_POST['submit'])) {
 			$data['keyword'] = $this->input->post('keyword');
 			$this->session->set_userdata('keyword', $data['keyword']);
@@ -138,7 +138,7 @@ class Post extends CI_Controller {
 
 	public function entertainment() {
 		$this->load->library('pagination');
-		$config['base_url'] = 'http://localhost/Assignment_Web/post/entertainment';
+		$config['base_url'] = 'https://blogitta.herokuapp.com/post/entertainment';
 		if (isset($_POST['submit'])) {
 			$data['keyword'] = $this->input->post('keyword');
 			$this->session->set_userdata('keyword', $data['keyword']);
@@ -190,7 +190,7 @@ class Post extends CI_Controller {
 
 	public function lifestyle() {
 		$this->load->library('pagination');
-		$config['base_url'] = 'http://localhost/Assignment_Web/post/lifestyle';
+		$config['base_url'] = 'https://blogitta.herokuapp.com/post/lifestyle';
 		if (isset($_POST['submit'])) {
 			$data['keyword'] = $this->input->post('keyword');
 			$this->session->set_userdata('keyword', $data['keyword']);
@@ -242,7 +242,7 @@ class Post extends CI_Controller {
 
 	public function health() {
 		$this->load->library('pagination');
-		$config['base_url'] = 'http://localhost/Assignment_Web/post/health';
+		$config['base_url'] = 'https://blogitta.herokuapp.com/post/health';
 		if (isset($_POST['submit'])) {
 			$data['keyword'] = $this->input->post('keyword');
 			$this->session->set_userdata('keyword', $data['keyword']);
@@ -294,7 +294,7 @@ class Post extends CI_Controller {
 
 	public function opinion() {
 		$this->load->library('pagination');
-		$config['base_url'] = 'http://localhost/Assignment_Web/post/opinion';
+		$config['base_url'] = 'https://blogitta.herokuapp.com/post/opinion';
 		if (isset($_POST['submit'])) {
 			$data['keyword'] = $this->input->post('keyword');
 			$this->session->set_userdata('keyword', $data['keyword']);
@@ -346,7 +346,7 @@ class Post extends CI_Controller {
 
 	public function business() {
 		$this->load->library('pagination');
-		$config['base_url'] = 'http://localhost/Assignment_Web/post/business';
+		$config['base_url'] = 'https://blogitta.herokuapp.com/post/business';
 		if (isset($_POST['submit'])) {
 			$data['keyword'] = $this->input->post('keyword');
 			$this->session->set_userdata('keyword', $data['keyword']);

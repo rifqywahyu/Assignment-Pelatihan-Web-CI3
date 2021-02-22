@@ -1,0 +1,16 @@
+.header_one {
+	font-family: Courier New;
+}
+
+.stroke {
+	font-size: 20px;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.loginBody {
+	background-color: #2d3333;
+}

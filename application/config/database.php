@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'pgsql:host=localhost;port=5432;dbname=assignmentweb;user=postgres;password=mamemamo',
-	'hostname' => 'localhost',
-	'username' => 'postgres',
-	'password' => 'mamemamo',
-	'database' => 'assignmentweb',
+	'dsn'	=> 'pgsql:host=ec2-3-222-127-167.compute-1.amazonaws.com;port=5432;dbname=d45cj6rl803tk3;user=mazsvjymvbxzlk;password=275ef0ae1e0e2ad5c579fddc8e411c5f3c6277c90290574c09dfbef9fb6938da',
+	'hostname' => 'ec2-3-222-127-167.compute-1.amazonaws.com',
+	'username' => 'mazsvjymvbxzlk',
+	'password' => '275ef0ae1e0e2ad5c579fddc8e411c5f3c6277c90290574c09dfbef9fb6938da',
+	'database' => 'd45cj6rl803tk3',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
